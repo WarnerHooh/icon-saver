@@ -11,7 +11,7 @@ gulp.task('Iconfont', function(done){
         .pipe(iconfont({
             fontName: 'myfont', // required
             formats: ['svg', 'ttf', 'eot', 'woff', 'woff2'],
-            prependUnicode: true, // recommended option
+            // prependUnicode: true, // recommended option
             timestamp: runTimestamp, // recommended to get consistent builds when watching files
         }));
 

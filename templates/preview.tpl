@@ -20,10 +20,29 @@
             align-items: center;
             flex: 10%;
             margin: 8px 16px;
+            padding: 20px 0;
+        }
+
+        .card:hover {
+            background-color: #1890ff;
+            color: #fff;
+        }
+
+        .card:hover i {
+            transform: scale(1.25);
+        }
+
+        .card, .card i {
+            transition: all 0.2s;
+        }
+
+        .card:hover, .card:hover i {
+            transition: all 0.2s ease-in-out;
         }
 
         .card span {
             margin-top: 2px;
+            text-align: center;
         }
     </style>
 </head>
